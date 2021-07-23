@@ -5,7 +5,7 @@ Realize RNNs series models (RNN, LSTM, GRU) based on Pytorch, and perform sequen
 The code implements three models of RNN, LSTM, and GRU. The experimental task is to predict traffic flow sequence. The experimental data set is PEMS08, a total of 170 observation nodes, 17856 time frames, one frame is recorded every five minutes, and 12 frames of historical data are used to predict 12 frames of future data. The PEMS08 data set is divided into training set, validation set, and test set according to the ratio of 6:2:2.
 
 <p align="center">
-  <img width="512" height="154" src=./fig/RNNs.png>
+  <img width="1024" height="308" src=./fig/RNNs.png>
 </p>
 
 ## Molde
@@ -13,7 +13,7 @@ The code implements three models of RNN, LSTM, and GRU. The experimental task is
 The overall model is mainly composed of input layer + two RNNs layers + output layer.
 
 <p align="center">
-  <img width="591" height="188" src=./fig/model.jpg>
+  <img width="1182" height="376" src=./fig/model.jpg>
 </p>
 
 ## Requirements
