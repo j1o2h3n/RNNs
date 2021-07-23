@@ -1,6 +1,6 @@
 # RNNs
 
-Realize RNNs series models based on Pytorch, and perform sequence prediction tasks.  I did not call the original library functions，and I implemented three deep learning models of RNN, LSTM, and GRU by hand
+Realize RNNs series models based on Pytorch, and perform sequence prediction tasks.  I did not call the original library functions，and I implemented three deep learning models of RNN, LSTM, and GRU by hand.
 
 The code implements three models of RNN, LSTM, and GRU. The experimental task is to predict traffic flow sequence. The experimental data set is PEMS08, a total of 170 observation nodes, 17856 time frames, one frame is recorded every five minutes, and 12 frames of historical data are used to predict 12 frames of future data. The PEMS08 data set is divided into training set, validation set, and test set according to the ratio of 6:2:2.
 
